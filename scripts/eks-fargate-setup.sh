@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CLUSTER_NAME=eksTest
-AWS_REGION=ap-south-1
+AWS_REGION=us-east-1
 
 #check for needed commands
 command -v eksctl >/dev/null 2>&1 || { echo >&2 "I require eksctl but it's not installed.  Aborting."; exit 1; }
